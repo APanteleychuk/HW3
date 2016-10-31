@@ -9,6 +9,6 @@ trait ShortInfo
      */
     public function printShortInfo()
     {
-        echo $this->getName() . ' ' . $this->getModel() . "<br>\n";
+        echo $this->getName().' '.$this->getModel()."<br>\n";
     }
 }

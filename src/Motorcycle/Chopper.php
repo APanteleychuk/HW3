@@ -22,7 +22,7 @@ class Chopper implements MotorcycleInterface
     protected $pilot;
 
     /**
-     * @var integer
+     * @var int
      */
     protected $maxSpeed;
 
@@ -92,10 +92,10 @@ class Chopper implements MotorcycleInterface
 
     public function printInfo()
     {
-        $info = 'Name: ' . $this->getName() . "<br>\n";
-        $info .= 'Model: ' . $this->getModel() . "<br>\n";
-        $info .= 'Pilot: ' . $this->getPilot() . "<br>\n";
-        $info .= 'Max speed: ' . $this->getMaxSpeed() . "km/h <br>\n";
+        $info = 'Name: '.$this->getName()."<br>\n";
+        $info .= 'Model: '.$this->getModel()."<br>\n";
+        $info .= 'Pilot: '.$this->getPilot()."<br>\n";
+        $info .= 'Max speed: '.$this->getMaxSpeed()."km/h <br>\n";
         print_r($info);
     }
 }
