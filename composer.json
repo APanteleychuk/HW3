@@ -1,0 +1,22 @@
+{
+    "name": "apanteleychuk/hw3",
+    "description": "Geekhub Php - HW3",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Panteleychuk",
+            "email": "Alexey.Panteleychuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.0",
+        "friendsofphp/php-cs-fixer":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Motorcycle\\": "src/Motorcycle"
+        }
+    }
+}
